@@ -1,0 +1,138 @@
+//VARIABLES
+$light-green: #00e0d0;
+$black: #413d4b;
+$gray: #b5b5b6;
+$light-purple: #9a93ad;
+
+/*
+font-family: 'Playfair Display', serif;
+font-weight: 400; -> Regular
+
+font-family: 'Playfair Display', serif;
+font-weight: 900; -> Black
+
+font-family: 'Roboto', sans-serif;
+font-weight: 300; -> Light
+
+font-family: 'Roboto', sans-serif;
+font-weight: 400; -> Regular
+
+font-family: 'Roboto', sans-serif;
+font-weight: 900; -> Black
+*/
+h1{
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+}
+
+.btn-lear{
+    margin-bottom: 5%;
+    width: 75%;
+    position: relative;
+    a{
+
+        color: $black;
+         border: 2px solid $black; 
+        text-align: center;
+        margin-right: 70%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+    }
+
+    a:hover{
+        color: $light-green;
+        border: 2px solid $light-green; 
+    }
+
+}
+
+
+.barra{
+    background: white;
+    padding: 6rem;
+
+    
+
+    }
+
+
+    p{
+        color: rgb(143, 143, 143);
+    }
+    .logo{
+        margin: 5%;
+        text-align: right;
+    }
+
+    .txt-OUR-STORY{
+        text-align: left;
+    }
+
+    h5{
+        font-family: 'Playfair Display', serif;
+        font-weight: 900;
+      }
+
+      p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+      }
+
+     
+      .txt-Expertise{
+        align-items: center;
+        text-align: center;
+
+        h5{
+            margin-bottom: -0.5rem;
+        }
+      }
+
+    .wh-border{
+        &:after {
+            content: "";
+             position: absolute;
+             left: 49%;
+             display: block;
+             width: 2.7em;
+             padding-top: 0.25em;
+            border-bottom: 3px solid $gray;
+        }
+    }
+
+    
+
+.expertise-seccion{
+    background: white;
+    padding: 4rem;
+    width: 100%;
+    align-items: center;
+    
+    .row{
+        --bs-gutter-y: 3rem; 
+    }
+}
+
+.txt-items{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    h5{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+    }
+}
+
+.col-sm-4 {
+    text-align: center;
+    content: "";
+    display: block;
+   border-bottom: 0.5px solid $gray;
+   border-right: 0.5px solid $gray;
+}
+
+
+.items{
+    margin-top: 5%;
+}
+
+
